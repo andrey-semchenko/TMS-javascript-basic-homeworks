@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 233, 233);
+
+}
+
+form {
+    margin: 100px 0 0 100px;
+    max-width: 225px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:whitesmoke;
+}
+
+input {
+    margin: 0 5px;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+input:focus {
+    border: none;
+}
+
+p {
+    text-align: center;
+    height: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.btn {
+    height: 3rem;
+    border-radius: 10px;
+    background-color: rgb(246, 212, 212);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    background-color:rgb(224, 155, 155);
+}
